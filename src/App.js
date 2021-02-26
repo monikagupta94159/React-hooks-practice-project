@@ -1,5 +1,5 @@
 import React from 'react';
-import SetUp from './useState/errorExample' 
+import SetUp from './useState/state-example' 
 
 function App() {
   return (
