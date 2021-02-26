@@ -1,8 +1,10 @@
+import React from 'react';
+import SetUp from './useState/errorExample' 
 
 function App() {
   return (
     <div className="App">
-     <h1>fghfghfgh</h1>
+      <SetUp />
     </div>
   );
 }
