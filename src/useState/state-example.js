@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const UseStateExample = () => {
+const StateExample = () => {
   let [text, setText] = useState("Random Title");
   const handleClick = () => {
     if (text === "Random Title") {
@@ -20,4 +20,4 @@ const UseStateExample = () => {
   );
 };
 
-export default UseStateExample;
+export default StateExample;
