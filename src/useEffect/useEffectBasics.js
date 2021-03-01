@@ -12,12 +12,24 @@ const UseEffectBasic = () => {
   //   });
   // }.
 
+//we can have any number of useEffect
+// This useEffect will not run after intial render
   useEffect(() => {
     console.log("effect world");
     if (value >= 1) {
       document.title = `newMessage (${value})`;
     }
-  });
+  //  If you only want that use effect run only at initial render add second argument as empty array [], this means that it will run at initial render. 
+  }, []);
+
+//this will render after every value change
+  useEffect(() => {
+    console.log("effect world");
+    if (value >= 1) {
+      document.title = `newMessage (${value})`;
+    }
+  //  If you only want that use effect run only at initial render add second argument as empty array [], this means that it will run at initial render. 
+  }, [value]);
 
   console.log("hello world");
   return (
