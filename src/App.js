@@ -5,12 +5,12 @@ import SetUp3 from './useState/state-example-counter';
 import SetUp4 from './useState/state-example-Array';
 import SetUp5 from './useState/state-example-object';
 import UseEffectBasics from './useEffect/useEffectBasics';
-
+import UseEffectCleanup from './useEffect/useEffectCleanup';
 function App() {
   return (
     <div className="App">
-            <UseEffectBasics />
-
+      {/* <UseEffectBasics /> */}
+      <UseEffectCleanup />
       {/* <SetUp2 /> */}
       {/* <SetUp5 /> */}
       {/* <SetUp4 /> */}
