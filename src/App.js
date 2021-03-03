@@ -6,11 +6,14 @@ import SetUp4 from './useState/state-example-Array';
 import SetUp5 from './useState/state-example-object';
 import UseEffectBasics from './useEffect/useEffectBasics';
 import UseEffectCleanup from './useEffect/useEffectCleanup';
+
+import UseEffectFetchData from './useEffect/useEffect-fetch-data';
 function App() {
   return (
     <div className="App">
       {/* <UseEffectBasics /> */}
-      <UseEffectCleanup />
+      {/* <UseEffectCleanup /> */}
+      <UseEffectFetchData />
       {/* <SetUp2 /> */}
       {/* <SetUp5 /> */}
       {/* <SetUp4 /> */}
