@@ -8,13 +8,16 @@ import UseEffectBasics from './useEffect/useEffectBasics';
 import UseEffectCleanup from './useEffect/useEffectCleanup';
 import MultipleReturns from './conditional-rendering/multiple-returns'
 import UseEffectFetchData from './useEffect/useEffect-fetch-data';
+import ShortCircuit from './conditional-rendering/sort-circuit'
+
 function App() {
   return (
     <div className="App">
       {/* <UseEffectBasics /> */}
       {/* <UseEffectCleanup /> */}
       {/* <UseEffectFetchData /> */}
-      <MultipleReturns />
+      {/* <MultipleReturns /> */}
+<ShortCircuit/>
       {/* <SetUp2 /> */}
       {/* <SetUp5 /> */}
       {/* <SetUp4 /> */}
