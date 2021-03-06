@@ -9,6 +9,7 @@ import UseEffectCleanup from './useEffect/useEffectCleanup';
 import MultipleReturns from './conditional-rendering/multiple-returns'
 import UseEffectFetchData from './useEffect/useEffect-fetch-data';
 import ShortCircuit from './conditional-rendering/short-circuit'
+import ShowHideComponent from './conditional-rendering/show-hide';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <UseEffectCleanup /> */}
       {/* <UseEffectFetchData /> */}
       {/* <MultipleReturns /> */}
-<ShortCircuit />
+      {/* <ShortCircuit /> */}
+      <ShowHideComponent />
       {/* <SetUp2 /> */}
       {/* <SetUp5 /> */}
       {/* <SetUp4 /> */}
